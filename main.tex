@@ -1,0 +1,213 @@
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Harmanjot Singh} \\[2mm]
+    \footnotesize
+    \faPhone\ \underline{(647) 686-3143} ~ 
+    \faEnvelope\ \underline{iamsingh.hj@gmail.com} ~
+    \faLinkedin\ \underline{\href{https://www.linkedin.com/in/codeharman/}{linkedin.com/in/codeharman}} ~
+    \faGithub\ \underline{\href{https://github.com/codeharman}{github.com/codeharman}} ~
+    \faBriefcase\ \underline{\href{https://codeharman.vercel.app/}{codeharman.vercel.app}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------PROJECTS-----------
+\section{Projects} 
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+\resumeProjectHeading
+              {\textbf{Password Generator} $|$ \emph{\href{https://password-generator-codeharman.vercel.app/}{Website} $|$ \href{https://github.com/codeharman/Password-Generator}{Source Code}}}{HTML5 $|$ CSS3 $|$ JavaScript}
+              \\[5mm]
+            \resumeItemListStart
+              \resumeItem{Built a secure password generator producing \textbf{two random passwords per click} using JavaScript, combining letters, numbers, and symbols for enhanced security.}
+              \resumeItem{Implemented a \textbf{copy-to-clipboard feature} and styled a responsive UI for consistent experience across desktop and mobile devices.}
+            \resumeItemListEnd
+\vspace{-20pt}
+
+\resumeProjectHeading
+    {\textbf{Random Quote Generator} $|$ \emph{\href{https://90-days-of-javascript.vercel.app/Day04-RandomQuoteGenerator/}{Website} $|$ \href{https://github.com/codeharman/90-days-of-javascript/tree/main/Day04-RandomQuoteGenerator}{Source Code}}}{HTML5 $|$ CSS3 $|$ JavaScript}
+    \\[5mm]
+\resumeItemListStart
+    \resumeItem{Built a web app that displays \textbf{random inspirational quotes} with a single button click using JavaScript, styled with responsive CSS.}
+    \resumeItem{Implemented smooth \textbf{fade-in animations} for quotes and buttons, ensuring a visually engaging experience across devices.}
+\resumeItemListEnd
+\vspace{-15pt}
+
+%-----------Experience---------------
+\section{Work Experience}
+    \resumeSubHeadingListStart
+                \resumeSubheading{Walmart}{Dec 2023 -- May 2025}{Online E-commerce Department Manager}{Hamilton, Ontario} 
+                \vspace{1pt}
+                \resumeItemListStart
+                    \resumeItem{Led a team of \textbf{10+} associates and standardized daily workflows; this improved order processing accuracy and reduced customer wait times by \textbf{15\%}}
+                    \resumeItem{Coordinated and reviewed \textbf{150--200+} online grocery orders per day by managing back-office tools, resolving payment exceptions, and assigning workloads, resulting in smoother same-day fulfillment}
+                    \resumeItem{Optimized staging, inventory handling, and service-station readiness, which decreased operational delays and helped prevent an estimated \textbf{\$5,000} in annual reprocessing costs}
+                    \resumeItem{Delivered consistent customer support across departments, strengthening understanding of user behavior and digital-to-physical shopping flows}
+                    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+  %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{   
+     \textbf{Languages}{: JavaScript (ES6+), HTML5, CSS3, TypeScript, Tailwind, Python} \\[1mm]
+     \textbf{Developer Tools}{: Git, GitHub, VS Code, npm, Vite} \\[1mm]
+     \textbf{Libraries/Frameworks}{: ReactJS, NodeJS} \\ [1mm]
+     \textbf{Core Competencies}{: Responsive Web Design, REST APIs, Component-Based Architecture, Debugging, Problem Solving, Clean Code Practices}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ \vspace{3pt}
+\vspace{10pt}
+
+\vspace{-15pt}
+
+ %-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Sheridan College}{Jan 2020 -- May 2021}
+      {Diploma in Advertising and Communications}{Ontario, Canada}
+
+\resumeSubHeadingListEnd
+
+\resumeItemListStart
+    \resumeItem{Graduated with \textbf{GPA: 3.78}}
+\resumeItemListEnd
+
+\vspace{-10pt}
+
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Scrimba}{May 2025 -- Dec 2025}
+      {Frontend Engineering Bootcamp}{Online}
+
+\resumeSubHeadingListEnd
+
+\resumeItemListStart
+    \resumeItem{Completed intensive 230+ hour project-based curriculum covering React, JavaScript, HTML, CSS, and real-world frontend workflows}
+\resumeItemListEnd
+
+\vspace{-5pt}
+
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Codecademy}{Nov 2025 -- Expected May 2026}
+      {Computer Science Program}{Online}
+\resumeSubHeadingListEnd
+
+\resumeItemListStart
+    \resumeItem{Learning foundational computer science concepts including data structures, algorithms, and object-oriented programming to strengthen problem-solving for frontend development}
+\resumeItemListEnd
+
+\vspace{-12pt}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\begin{itemize}[leftmargin=0.15in]
+    \item Completed \textbf{6+ contributions} to open source projects during \textbf{Hacktoberfest 2025}, featured in the official Hacktoberfest newsletter. 
+    \item Created a glowing button effect in a frontend project, which was \textbf{featured in Scrimba's newsletter}, demonstrating UI creativity and attention to detail.
+\end{itemize}
+\vspace{-12pt}
+
+
+\end{document}
