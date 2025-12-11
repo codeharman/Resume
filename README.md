@@ -48,11 +48,7 @@ I have completed an intensive **Frontend Engineering Bootcamp** at Scrimba and a
 
 ## 📌 How to Use
 
-You can preview my resume directly via the HTML file in your browser:
-
-[View HTML Resume - Live](https://codeharman.github.io/Resume/)
-
-Or download the PDF for printing or sharing:
+download the PDF for printing or sharing:
 
 [Download PDF Resume](Resume.pdf)
 
